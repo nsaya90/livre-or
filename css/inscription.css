@@ -1,0 +1,93 @@
+*{  margin:0;
+    padding:0;
+}
+html,
+body {
+  height: 100%;
+}
+body
+{
+    background-color: #14213D;
+}
+h3
+{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+h1,h2
+{
+    color: white;
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 4px gray;
+
+}
+.main
+{
+    padding-top: 10%;
+}
+
+a
+{
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+p
+{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+.box_header
+{
+    background-color: #FCA311;
+    height: 60px;
+}
+
+.box_lien
+{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.box2_form
+{
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],input[type=password],input[type=password2]
+{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bouton_valider
+{
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+footer
+{ 
+    background-color: #f1af43;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}

@@ -1,0 +1,81 @@
+body
+{
+    background-color: #14213D;
+}
+
+h1
+{
+    color: white;
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 4px gray;
+
+}
+
+li
+{
+    color: white;
+    text-shadow: 3px 3px 4px gray;
+    font-size: 30px;
+}
+
+a
+{
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+p
+{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+.box_header
+{
+    background-color: #FCA311;
+    height: 60px;
+}
+
+.box_lien
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+input[type=text],input[type=password]
+{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.btn_valider
+{
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box_btn
+{
+    font-family: 'Michroma', sans-serif;
+}

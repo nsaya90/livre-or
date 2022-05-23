@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-color: #E5E5E5;
+}
+
+.main_livre_or
+{
+    padding-top: 4%;
+    min-height:100%;
+    position:relative;
+    padding-bottom:100px; 
+}
+
+.box_header
+{
+    background-color: #FCA311;
+    height: 60px;
+}
+
+.box_lien
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+a
+{
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+h3
+{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+p
+{
+    color: #222C41;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1
+{
+    color: #222C41;
+    font-family: 'Squada One', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 4px gray;
+
+}
+
+tr,td
+{
+    color: #222C41;
+    font-family: 'Josefin Slab', serif;
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box_main
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1_lo
+{
+    padding-left: 5%;
+    width: 40%;
+}
+
+.box2_lo
+{
+    padding-top: 5%;
+}
+
+footer
+{ 
+    background-color: #f1af43;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+
+
